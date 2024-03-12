@@ -1,0 +1,54 @@
+// .btn-main {
+//     width: fit-content;
+//     height: fit-content;
+//     padding: 10px 25px;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     // border: 1.5px solid #f6f7fa;
+//     border-radius: 50px;
+//     color: #f6f7fa;
+//     background-color: yellow;
+//     font-size: 1rem;
+//     font-family: "Roboto";
+//     transition: background-color 0.3s ease, red 0.3s ease;
+// }
+
+// .btn-main:hover{
+//     cursor: pointer;
+//     background-color: #f6f7fa;
+//     color: #141414;
+//     font-weight: 800;
+// }
+
+// .solid-button {
+//   background-color: #007bff; /* Default solid button background color */
+//   color: white;
+//   border: none;
+//   padding: 10px 20px;
+//   border-radius: 5px;
+//   cursor: pointer;
+// }
+
+// .holo-button {
+//   background-color: transparent;
+//   border: 2px solid #007bff; /* Default holo button border color */
+//   color: #007bff;
+//   padding: 8px 16px;
+//   border-radius: 5px;
+//   cursor: pointer;
+//   transition: background-color 0.3s, color 0.3s;
+// }
+
+.btn {
+  width: fit-content;
+  height: fit-content;
+  padding: 10px 25px;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-family: "Roboto";
+}
+
+.btn:hover {
+    cursor: pointer;
+  }

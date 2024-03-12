@@ -1,0 +1,32 @@
+.footer-main {
+    width: 100%;
+    height: 3rem;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+
+    .copyright {
+
+    }
+
+    .social-media {
+
+
+        svg {
+            width: 20px;
+            height: 20px;
+            color: #f6f7fa;
+            margin: 0 10px;
+            transition: color 0.3s ease, #6919FF 0.3s ease;
+
+        }
+
+    }
+
+    .user-name {
+
+    }
+}

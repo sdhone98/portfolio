@@ -1,0 +1,8 @@
+.card-container {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    overflow: hidden;
+}

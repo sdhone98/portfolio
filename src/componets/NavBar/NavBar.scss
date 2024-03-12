@@ -1,0 +1,47 @@
+.nav-main {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 10%;
+
+  .nav-left {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+    h3 {
+      font-size: 1.5rem;
+      font-weight: 400;
+      padding: 0 3px;
+      color: #f6f7fa;
+      cursor: default;
+    }
+    .fisrt-name {
+      font-weight: 800;
+    }
+  }
+
+  .nav-right {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+
+    label {
+      color: #f6f7fa;
+      font-family: Roboto;
+      font-size: 1rem;
+      font-weight: 300;
+      margin: 0 2rem;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    label:hover{
+        color: #6919FF;
+        cursor: pointer;
+    }
+  }
+}
