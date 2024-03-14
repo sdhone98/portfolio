@@ -1,0 +1,46 @@
+.experiance-main {
+  width: 100%;
+  height: 100vh;
+  padding: 0 10%;
+  color: #f6f7fa;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  .experiance-left-side,
+  .experiance-right-side {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h3 {
+    font-family: Roboto;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-top: 2rem;
+    padding-bottom: 0.7rem;
+    align-self: self-start;
+  }
+
+  .experiance-container {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+  }
+
+  li {
+    color: aliceblue;
+    font-weight: 300;
+    font-size: 1rem;
+    list-style: none;
+    align-self: flex-start;
+    padding: 3px;
+  }
+}

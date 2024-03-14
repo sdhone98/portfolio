@@ -1,0 +1,33 @@
+.job-main {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 5px;
+
+  label {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 1rem;
+    padding: 0;
+    margin: 5px 0;
+    color: #f6f7fa;
+    background-color: transparent;
+  }
+  h4 {
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 1.5rem;
+    align-self: center;
+    padding: 0;
+    margin: 7px 0;
+    color: #f6f7fa;
+    background-color: transparent;
+  }
+
+  .postition {
+    align-self: center;
+    margin: 2px 0;
+    
+  }
+}
